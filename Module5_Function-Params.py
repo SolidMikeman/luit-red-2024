@@ -11,7 +11,7 @@ def get_average(input_numbers):  # This is a parameter
 average = get_average(input_numbers)  # Call the function to get the average
 print(average)
 
-def print_letter_count(text, letter):
+def print_letter_count(text, letter): #Positional Arguement
     counter = 0
     for char in text:
         if char == letter:
